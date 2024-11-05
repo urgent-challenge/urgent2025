@@ -1,0 +1,35 @@
+/* Two-column layouts */
+.left-column  { width: 49%; float: left; }
+.right-column { width: 49%; float: right; }
+
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-38  { width: 38%; float: left; }
+.right-column-61 { width: 61%; float: right; }
+
+.left-column-40  { width: 40%; float: left; }
+.right-column-59 { width: 59%; float: right; }
+
+.left-column-44  { width: 44%; float: left; }
+.right-column-55 { width: 55%; float: right; }
+
+.left-column-48  { width: 48%; float: left; }
+.right-column-51 { width: 51%; float: right; }
+
+.left-column-55  { width: 55%; float: left; }
+.right-column-44 { width: 44%; float: right; }
+
+.left-column-59  { width: 59%; float: left; }
+.right-column-40 { width: 40%; float: right; }
+
+.left-column-61  { width: 61%; float: left; }
+.right-column-38 { width: 38%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p { clear: both; }
+.right-column ~ ul { clear: both; }
+
+.full-column { clear: both; width: 100%; }

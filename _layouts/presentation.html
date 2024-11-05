@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="/urgent2024/assets/js/distillpub/template.v2.js"></script>
+<html>
+  <head>
+    <title>{{ page.title | strip_html }}</title>
+    <link rel="stylesheet" type="text/css" href="/urgent2024/assets/js/remark/style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/urgent2024/assets/js/remark/style/inlinecode.css"/>
+    <link rel="stylesheet" type="text/css" href="/urgent2024/assets/js/remark/style/blockquote.css"/>
+    <link rel="stylesheet" type="text/css" href="/urgent2024/assets/js/remark/style/table.css"/>
+    <link rel="stylesheet" type="text/css" href="/urgent2024/assets/js/remark/style/multicolumn.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+{{ page.content }}
+
+</textarea>
+
+    <d-appendix style="display:none">
+      <d-footnote-list></d-footnote-list>
+      <d-citation-list></d-citation-list>
+    </d-appendix>
+
+    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+
+    <!-- Build Slide -->
+    <script src="/urgent2024/assets/js/remark/remark.min.js" type="text/javascript"></script>
+    <script src="/urgent2024/assets/js/remark/main.js" type="text/javascript"></script>
+  </body>
+</html>
