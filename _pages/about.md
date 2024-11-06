@@ -18,7 +18,7 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/urgent2025/assets/img/intro.png" style="max-width: 100%;"/>
+<img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 100%;"/>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 

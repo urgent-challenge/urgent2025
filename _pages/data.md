@@ -9,33 +9,13 @@ nav_order: 3
 bibliography: data.bib
 ---
 
-### Updates
-
-❗️❗️**[2024-09-22]** We have released the labels for the non-blind test dataset. You can download them from [Google Drive](https://drive.google.com/file/d/1fvlrzw1K1YPZcC9GxY7nMNPIxu3-Dx78/view?usp=sharing).
-
-❗️❗️**[2024-09-19]** We have released the official blind test dataset. This is the dataset that will be used for the final ranking. You can download it from [Google Drive](https://drive.google.com/file/d/1qBTHgII6o57tmO8GPIunqZVtZhAu0M__/view?usp=sharing).
-> Note that unlike the non-blind test dataset, this dataset contains both simulated audios and real recordings<d-footnote>Their identities won't be revealed.</d-footnote>. The former contains clean reference signals while the latter only has reference transcripts.
->
-> So we will only calculate **DNSMOS**, **NISQA**, and **WAcc** metrics for the real recordings.
-> For simulated data, all objective metrics listed in the [Rules](/urgent2024/rules) tab will be calculated.
->
-> After the leaderboard blind test phase ends (no further submissions accepted), we will additionally
->
->   1. calculate the **POLQA** objective metric for the best submission of each team and insert it into the leaderboard as a part of the `Intrusive SE metric` category.
->   2. obtain the **MOS** subjective score for the best submission of each team via crowd-sourcing based on the ITU-T P.808 standard<d-footnote>Due to our limited resource, we will subsample a fixed 300-sample subset from the full 1000-sample blind test set and use that for MOS evaluation of all teams' submissions. We will make sure the subset preserves as similar as possible the ranking structure of all teams as in the full blind test set. The utterance IDs of the subset will be released.</d-footnote>. This score will be counted as a fifth category (`Subjective SE metric`) in addition to the four categories defined in the [Rules](/urgent2024/rules) tab.
->
-> The final ranking will be obtained using the same methodology as defined in the [Rules](/urgent2024/rules) tab, but based on the five categories of metrics.
-
-❗️❗️**[2024-08-20]** We have released the official non-blind test dataset. You can download it from [Google Drive](https://drive.google.com/file/d/1Bcy7vtsZF5kzwrkklQwj6Um4AMlaUHe2/view?usp=sharing).
-
-❗️❗️**[2024-08-20]** We have released the labels for the official validation dataset. You can download them from [Google Drive](https://drive.google.com/file/d/1qYaQKZtvGeRHaoFaeiaaKq5Akvbd2g-9/view?usp=sharing).
-
-❗️❗️**[2024-06-20]** We have released the official (complete) validation dataset. You can download it from [Google Drive](https://drive.google.com/file/d/11D_3-Y1Iugj5jsUvlnaPLxdOSugV9TER/view?usp=sharing).
-> Note that this complete validation dataset is intended for assisting the development of challenge systems as well as for a fair comparison. The official validation leaderboard will only use a small portion<d-footnote>This subset can be downloaded from https://urgent-challenge.com/competitions/5#participate-get_data.</d-footnote> of this dataset for evaluation.
-
 ### Data description
 
-The training and validation data are both simulated based on the following source data:
+The training and validation data are both simulated based on the following source data.
+
+The challenge has two tracks: 
+ - **First track**: We limit the duration of MLS and CommonVoice, resulting in ~2.5k hours of speech.
+ - **Second track**: We do not limit the duration of MLS and CommonVoice datasets, resulting in ~60k hours of speech.
 
 <style>
 /* Basic */
@@ -128,7 +108,7 @@ border-bottom: 1px solid #cccccc;
 </thead>
 <tbody>
   <tr>
-    <td rowspan="5">Speech</td>
+    <td rowspan="7">Speech</td>
     <td>LibriVox data from <a href="https://github.com/microsoft/DNS-Challenge/blob/master/download-dns-challenge-5-headset-training.sh">DNS5 challenge</a></td>
     <td>Audiobook</td>
     <td>8~48</td>
@@ -141,13 +121,6 @@ border-bottom: 1px solid #cccccc;
     <td>8~24</td>
     <td>~200 h</td>
     <td>CC BY 4.0</td>
-  </tr>
-  <tr>
-    <td>CommonVoice 11.0 English portion</td>
-    <td>Crowd-sourced voices</td>
-    <td>8~48</td>
-    <td>~550 h</td>
-    <td>CC0</td>
   </tr>
   <tr>
     <td>VCTK reading speech</td>
@@ -164,7 +137,28 @@ border-bottom: 1px solid #cccccc;
     <td>LDC User Agreement</td>
   </tr>
   <tr>
-    <td rowspan="2">Noise</td>
+    <td>EARS speech</td>
+    <td>Studio recording</td>
+    <td>48</td>
+    <td>~100 h</td>
+    <td> CC-NC 4.0</td>
+  </tr>
+  <tr>
+    <td>Multilingual Librispeech (de, en, es, fr)</td>
+    <td>Audiobook</td>
+    <td>8~48</td>
+    <td>~450 (48600) h</td>
+    <td>CC0</td>
+  </tr>
+  <tr>
+    <td>CommonVoice 19.0 (de, en, es, fr, zh-CN)</td>
+    <td>Crowd-sourced voices</td>
+    <td>8~48</td>
+    <td>~1300 (9500) h</td>
+    <td>CC0</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Noise</td>
     <td>Audioset+FreeSound noise in DNS5 challenge</td>
     <td>Crowd-sourced + Youtube</td>
     <td>8~48</td>
@@ -179,12 +173,40 @@ border-bottom: 1px solid #cccccc;
     <td>CC BY-NC 4.0</td>
   </tr>
   <tr>
+    <td>FSD50K (human voice filtered)</td>
+    <td>Crowd-sourced</td>
+    <td>8~48</td>
+    <td>~100 h</td>
+    <td>CC0, CC-BY, CC-BY-NC, CC Sampling+</td>
+  </tr>
+  <tr>
+    <td>Free Music Archive (medium)</td>
+    <td>Free Music Archive (directed by WFMU) </td>
+    <td>8~44.1</td>
+    <td>~200 h</td>
+    <td>CC</td>
+  </tr>
+  <tr>
+    <td>Wind noise simulated by participants</td>
+    <td>-</td>
+    <td>any</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
     <td rowspan="2">RIR</td>
     <td>Simulated RIRs from DNS5 challenge</td>
     <td><a href="https://www.openslr.org/28/">SLR28</a></td>
     <td>48</td>
     <td>~60k samples</td>
     <td>CC BY 4.0</td>
+  </tr>
+  <tr>
+    <td>RIRs simulated by participants</td>
+    <td>-</td>
+    <td>any</a></td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <!-- <tr>
     <td>Other RIRs simulated by participants</td>
@@ -198,18 +220,20 @@ border-bottom: 1px solid #cccccc;
 
 > For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC.
 >
-> We also allow participants to simulate their own RIRs using existing tools<d-footnote>For example, <a href="https://github.com/ehabets/RIR-Generator">RIR-Generator</a>, <a href="https://github.com/LCAV/pyroomacoustics">pyroomacoustics</a>, <a href="https://github.com/DavidDiazGuerra/gpuRIR">gpuRIR</a>,  and so on.</d-footnote> for generating the training data.
-> The participants can also propose publicly available real recorded RIRs to be included in the above data list during the grace period (See [`Timeline`](/urgent2024/timeline)).
-> Note: If participants used additional RIRs to train their model, the related information should be provided in the README.yaml file in the submission. Check the [template](/urgent2024/template) for more information.
+> We allow participants to simulate their own RIRs using existing tools<d-footnote>For example, <a href="https://github.com/ehabets/RIR-Generator">RIR-Generator</a>, <a href="https://github.com/LCAV/pyroomacoustics">pyroomacoustics</a>, <a href="https://github.com/DavidDiazGuerra/gpuRIR">gpuRIR</a>,  and so on.</d-footnote> for generating the training data.
+> The participants can also propose publicly available real recorded RIRs to be included in the above data list during the grace period (See [`Timeline`](/urgent2025/timeline)).
+> Note: If participants used additional RIRs to train their model, the related information should be provided in the README.yaml file in the submission. Check the [template](/urgent2025/template) for more information.
+>
+> We allow participants to simulate wind noise.
 
 ### Pre-processing
 
-<img alt="pre-processing" src="/urgent2024/assets/img/preprocessing.png" style="max-width: 100%;"/>
+<img alt="pre-processing" src="/urgent2025/assets/img/preprocessing.png" style="max-width: 100%;"/>
 
 Before simulation, all collected speech and noise data are pre-processed to filter out low-quality samples and to detect the true sampling frequency (SF).
 The pre-processing procedure includes:
 
-1. We first estimate the effective bandwidth of each speech and noise sample based on the energy thresholding algorithm proposed in<d-cite key="Hi_Fi-Bakhturina2021"/><d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/estimate_audio_bandwidth.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/estimate_audio_bandwidth.py</a></d-footnote>. This is critical for our proposed method to successfully handle data with different SFs. Then, we resample each speech and noise sample accordingly to the best matching SF, which is defined as the lowest SF among {8, 16, 22.05, 24, 32, 44.1, 48} kHz that can fully cover the estimated effective bandwidth.
+1. We first estimate the effective bandwidth of each speech and noise sample based on the energy thresholding algorithm proposed in <d-cite key="Hi_Fi-Bakhturina2021"/><d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/estimate_audio_bandwidth.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/estimate_audio_bandwidth.py</a></d-footnote>. This is critical for our proposed method to successfully handle data with different SFs. Then, we resample each speech and noise sample accordingly to the best matching SF, which is defined as the lowest SF among {8, 16, 22.05, 24, 32, 44.1, 48} kHz that can fully cover the estimated effective bandwidth.
 2. A voice activity detection (VAD) algorithm<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_vad.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_vad.py</a></d-footnote> is further used to detect “bad” speech samples that are actually non-speech or mostly silence, which will be removed from the data.
 3. Finally, the non-intrusive DNSMOS scores (OVRL, SIG, BAK)<d-cite key="DNSMOS-Reddy2022"/><d-footnote><a href="https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py">https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py</a></d-footnote> are calculated for each remaining speech sample. This allows us to filter out noisy and low-quality speech samples via thresholding each score<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_dnsmos.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_dnsmos.py</a></d-footnote>.
 

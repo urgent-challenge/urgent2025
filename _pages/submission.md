@@ -8,9 +8,7 @@ nav_order: 6
 ---
 
 
-<del>The submission system is open from June 20, 2024, to September 21, 2024 (23:59:59 AoE).</del>
-
-The submission system has been closed for the official challenge. Thank you for your participation!
+The submission system will be open from November 25th, 2024, to January 15th, 2025 (23:59:59 AoE).
 
 ### Submission format and requirements
 
@@ -44,7 +42,7 @@ The submission system has been closed for the official challenge. Thank you for 
 * Each team can submit up to **2 submissions per day** during the challenge.
   * The third and later submissions will be ignored. The quota will be reset at 00:00 (UTC timezone) every day.
   * Failed submissions are not taken into account when counting the submissions per day.
-  * No submission will be accepted after the deadline (<del>Septermber 20, 2024</del>Septermber 21, 2024).
+  * No submission will be accepted after the deadline (January 15th, 2025).
 * For each team, only the submission with the best leaderboard performance will be used for the final evaluation.
 
 

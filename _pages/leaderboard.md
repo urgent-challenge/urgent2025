@@ -7,6 +7,9 @@ nav: true
 nav_order: 7
 ---
 
+Leaderboard will be open from November 25th, 2024.
+
+<!--
 The blind test leaderboard has been closed since the challenge has completed. The final results can be found at https://urgent-challenge.com/competitions/5#final_results.
 
 <del>The blind test leaderboard is now live at [https://urgent-challenge.com](https://urgent-challenge.com/).</del>
@@ -35,3 +38,4 @@ In the leaderboard, there are two official entries:
       * For each metric cell, the first number represents the metric value, and the second number in parentheses represents the rank of this metric among all submissions.
       * For the final blind test phase, an additional category (`Subjective SE metrics`) will be added to evaluate the MOS score. See [`Data`](/urgent2024/data) for more information.
   * The last column (overall ranking score) represents the final score used for ranking all submissions. It is calculated following the rules defined in the [`Rules`](/urgent2024/rules) tab.
+-->

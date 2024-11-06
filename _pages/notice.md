@@ -8,6 +8,7 @@ nav: true
 nav_order: 9
 ---
 
+<!--
 * **[2024-10-21]** We have announced the final results of the challenge in https://urgent-challenge.com/competitions/5#final_results.
 
 * **[2024-09-22]** The blind test phase has officially ended. We will start the subjective evaluation soon.
@@ -29,3 +30,4 @@ nav_order: 9
 * **[2024-06-22]** We have updated the [`Submission`](/urgent2024/submission) tab to emphasize that multiple registrations from different members in the same team are not allowed.
 
 * **[2024-06-20]** We have launched the leaderboard and open the registration system for leaderboard submission! Please visit the [leaderboard page](/urgent2024/leaderboard/) for more information.
+-->
