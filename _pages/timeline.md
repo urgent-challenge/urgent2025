@@ -8,7 +8,6 @@ nav_order: 2
 ---
 
 
-
 |   **Date ( Anywhere on Earth )**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
 |     November 15, 2024             | **Start of the challenge** |
@@ -20,6 +19,5 @@ nav_order: 2
 |     January 29, 2025              | Notification of final results |
 |     February 12, 2025             | Paper submission deadline |
 |     February 19, 2025             | Paper update deadline |
-
 {: .table}
 {: .table-striped}
