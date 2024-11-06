@@ -18,7 +18,7 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/urgent2024/assets/img/intro.png" style="max-width: 100%;"/>
+<img alt="introduction" src="/urgent2025/assets/img/intro.png" style="max-width: 100%;"/>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
@@ -35,9 +35,9 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
-## URGENT 2024 Challenge
+## Interspeech URGENT 2025 Challenge
 
-URGENT 2024 (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge accepted by the [**NeurIPS 2024 Competition Track**](https://neurips.cc/Conferences/2024/CompetitionTrack). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
+URGENT 2025 (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
 ## Goal
 
@@ -54,9 +54,9 @@ Based on the increasing interest in the generalizability of speech enhancement m
 
 The task of this challenge is to build **a single speech enhancement system** to adaptively handle input speech with different distortions (corresponding to different SE subtasks) and different input formats (e.g., sampling frequencies) in different acoustic environments (e.g., noise and reverberation).
 
-The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as dynamic mixing to achieve the best generalizability. The data preparation scripts are released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>. Check the [`Data`](/urgent2024/data) tab for more information.
+The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as dynamic mixing to achieve the best generalizability. The data preparation scripts are released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>. Check the [`Data`](/urgent2025/data) tab for more information.
 
-We also provide baselines in the [ESPnet](https://github.com/espnet/espnet) toolkit to facilitate the system development. Check the [`Baseline`](/urgent2024/baseline) tab for more information.
+We also provide baselines in the [ESPnet](https://github.com/espnet/espnet) toolkit to facilitate the system development. Check the [`Baseline`](/urgent2025/baseline) tab for more information.
 
 We will evaluate enhanced audios with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. They include four different categories of metrics<d-footnote>An additional category (subjective SE metrics) will be added for the final blind test phase for evaluating the MOS score.</d-footnote>:
 
@@ -65,15 +65,11 @@ We will evaluate enhanced audios with a variety of metrics to comprehensively un
 3. downstream-task-independent metrics (e.g., Levenshtein phone similarity) for language-independent, speaker-independent, and task-independent evaluation.
 4. downstream-task-dependent metrics (e.g., speaker similarity, word accuracy or WAcc) for evaluation of compatibility with different downstream tasks.
 
-More details about the evaluation plan can be found in the [`Rules`](/urgent2024/rules) tab.
+More details about the evaluation plan can be found in the [`Rules`](/urgent2025/rules) tab.
 
 ## Communication
 
 [Join our Slack workspace](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
-
-## Workshop
-
-Top-ranking teams will be invited to a dedicated workshop in the NeurIPS 2024 conference (December 14 or December 15, 2024). More information will be provided after the challenge is completed.
 
 <!-- ## Paper Submission
 

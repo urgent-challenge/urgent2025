@@ -9,9 +9,9 @@ nav_order: 4
 bibliography: rules.bib
 ---
 
-1. When generating the training and validation datasets, **only** the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2024/data) tab shall be used.
+1. When generating the training and validation datasets, **only** the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2025/data) tab shall be used.
     * This is to ensure a fair comparison and proper understanding of various SE approaches.
-    * The first month of the challenge will be a grace period when participants can propose additional public datasets to be included in the list. We (organizers) will reply to the requests and may update the list. Updates will be recorded in the [`Notices`](/urgent2024/notices) tab.
+    * The first month of the challenge will be a grace period when participants can propose additional public datasets to be included in the list. We (organizers) will reply to the requests and may update the list. Updates will be recorded in the [`Notices`](/urgent2025/notices) tab.
     * Although the speech enhancement model should only be trained on the listed data, we allow the use of pre-trained foundation models such as [HuBERT](https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md), [WavLM](https://github.com/microsoft/unilm/blob/master/wavlm/README.md), [EnCodec](https://github.com/facebookresearch/encodec), [Llama](https://llama.meta.com/llama-downloads/), and so on as long as:
         * they are publicly available before the challenge begins
         * and they are explicitly mentioned in the submitted system description.
@@ -23,7 +23,7 @@ bibliography: rules.bib
 
 3. There is no constraint on the latency or causality of the developed system in this challenge. Any type of model can be used as long as they conform to the other rules as listed in this page.
 
-4. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2024/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
+4. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2025/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2025/submission) tab.
     * Only the team name will be shown in the leaderboard, while the affiliation and team members will be kept confidential.<br/><br/>
 
 5. The following evaluation metrics will be calculated for evaluation.

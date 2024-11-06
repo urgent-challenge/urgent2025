@@ -11,7 +11,7 @@ bibliography: baseline.bib
 
 ## Basic Framework
 
-<img alt="framework" src="/urgent2024/assets/img/framework.png" style="max-width: 100%;"/>
+<img alt="framework" src="/urgent2025/assets/img/framework.png" style="max-width: 100%;"/>
 
 The basic framework is detailed in the challenge description paper<d-cite key="URGENT-Zhang2024"/>.
 
@@ -28,7 +28,7 @@ We provide offical baselines and the corresponding recipe ([`egs2/urgent24/enh1`
 
 > To install the ESPnet toolkit for model training, please follow the instructions at https://espnet.github.io/espnet/installation.html.
 >
-> You can check [“A quick tutorial on how to use ESPnet”](/urgent2024/espnet_tutorial) to have a quick overview on how to use ESPnet for speech enhancement.
+> You can check [“A quick tutorial on how to use ESPnet”](/urgent2025/espnet_tutorial) to have a quick overview on how to use ESPnet for speech enhancement.
 
   * For the basic usage of this toolkit, please refer to [egs2/TEMPLATE/enh1/README.md](https://github.com/espnet/espnet/blob/master/egs2/TEMPLATE/enh1/README.md).
   * Several baseline models are provided in the format of a `YAML` configuration file in [`egs2/urgent24/enh1/conf/tuning/`](https://github.com/espnet/espnet/tree/master/egs2/urgent24/enh1/conf/tuning/).
