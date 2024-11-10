@@ -9,6 +9,9 @@ nav_order: 5
 bibliography: baseline.bib
 ---
 
+Comming soon
+
+<!--
 ## Basic Framework
 
 <img alt="framework" src="/urgent2025/assets/img/framework.png" style="max-width: 100%;"/>
@@ -24,9 +27,7 @@ During training and inference, the processing of different SFs is supported for 
 
 ## Baselines in ESPnet
 
-Comming soon.
-
-<!--We provide offical baselines and the corresponding recipe ([`egs2/urgent24/enh1`](https://github.com/espnet/espnet/tree/master/egs2/urgent24/enh1)) in the [ESPnet](https://github.com/espnet/espnet) toolkit.
+We provide offical baselines and the corresponding recipe ([`egs2/urgent24/enh1`](https://github.com/espnet/espnet/tree/master/egs2/urgent24/enh1)) in the [ESPnet](https://github.com/espnet/espnet) toolkit.
 
 > To install the ESPnet toolkit for model training, please follow the instructions at https://espnet.github.io/espnet/installation.html.
 >

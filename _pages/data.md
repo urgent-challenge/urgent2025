@@ -276,6 +276,7 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 * For all different distortion types, the original sampling frequency of each clean speech sample is always preserved, i.e., the degraded speech sample also shares the same sampling frequency. For `bandwidth_limitation` augmentation, this means that the generated speech sample is resampled to the original sampling frequency `fs`.
 
 ### Code
+Comming soon.
 
-The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2024_challenge](https://github.com/urgent-challenge/urgent2024_challenge).
+<!-- The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2024_challenge](https://github.com/urgent-challenge/urgent2024_challenge). -->
 
