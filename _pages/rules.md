@@ -9,8 +9,8 @@ nav_order: 4
 bibliography: rules.bib
 ---
 
-1. When generating the training and validation datasets, **only** the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2025/data) tab shall be used.
-    * This is to ensure a fair comparison and proper understanding of various SE approaches.
+1. When generating the training and validation datasets, **only** the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2025/data) tab shall be used to ensure a fair comparison and proper understanding of various SE approaches.
+    * Note that the challenge has two tracks, where the track 2 has much larger data amount. If you are interested in a large-scale training, please consider participating in the track 2.
     * The first month of the challenge will be a grace period when participants can propose additional public datasets to be included in the list. We (organizers) will reply to the requests and may update the list. Updates will be recorded in the [`Notice`](/urgent2025/notice) tab.
     * Although the speech enhancement model should only be trained on the listed data, we allow the use of pre-trained foundation models such as [HuBERT](https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md), [WavLM](https://github.com/microsoft/unilm/blob/master/wavlm/README.md), [EnCodec](https://github.com/facebookresearch/encodec), [Llama](https://llama.meta.com/llama-downloads/), and so on as long as:
         * they are publicly available before the challenge begins

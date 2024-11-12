@@ -102,7 +102,7 @@ border-bottom: 1px solid #cccccc;
     <th>Corpus</th>
     <th>Condition</th>
     <th>Sampling Frequency (kHz)</th>
-    <th>Duration (after pre-processing)</th>
+    <th>Duration of track 1 (track2)</th>
     <th>License</th>
   </tr>
 </thead>
@@ -239,6 +239,9 @@ The pre-processing procedure includes:
 
 We finally curated a list of speech sample (~2500 hours) and noise samples (~500 hours) based on the above procedure that will be used for simulating the training and validation data in the challenge.
 
+Note that the data filtering is not perfect and the dataset still has non-ignorable amount of noisy samples.
+**One of the goal of this challenge is to encourage participants to develop how to leverage (or remove) such noisy data** to improve the final SE performance.
+
 ### Simulation
 
 With the proviced scripts in the next section, the simulation data can be generated offline in two steps.
@@ -247,7 +250,25 @@ With the proviced scripts in the next section, the simulation data can be genera
 
 2. In the second step, the simulation can be done in parallel via [`simulation/simulate_data_from_param.py`](https://github.com/urgent-challenge/urgent2025_challenge/blob/main/simulation/simulate_data_from_param.py) for different samples according to the manifest while ensuring reproducibility. This procedure can be used to generate training and validation datasets.
 
-For the training set, we recommend dynamically generating degraded speech samples during training to increase the data diversity.
+For the training set, **we recommend dynamically generating degraded speech samples during training** to increase the data diversity.
+
+
+#### Distortions
+In this challenge, the SE system has to address the following seven distortions.
+In addition to the first four distortions considered in our first challenge, **we added three more distortions (bold ones) often observed in real recordings**.
+Furthermore, in this challenge, **inputs may have multiple distortions**.
+
+We provide an example simulation script as [`simulation/simulate_data_from_param.py`](https://github.com/urgent-challenge/urgent2025_challenge/blob/main/simulation/simulate_data_from_param.py).
+
+1. Additive noise
+2. Reverberation
+3. Clipping
+4. Bandwidth limitation
+5. **Codec distortion**
+6. **Packet loss**
+7. **Wind noise**
+
+
 
 #### Simulation metadata
 
@@ -276,7 +297,5 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 * For all different distortion types, the original sampling frequency of each clean speech sample is always preserved, i.e., the degraded speech sample also shares the same sampling frequency. For `bandwidth_limitation` augmentation, this means that the generated speech sample is resampled to the original sampling frequency `fs`.
 
 ### Code
-To be announced.
-
-<!-- The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2024_challenge](https://github.com/urgent-challenge/urgent2024_challenge). -->
+The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
 
