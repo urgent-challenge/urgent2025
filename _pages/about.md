@@ -37,26 +37,36 @@ if isinstance(speech_mix, np.ndarray):
 
 ## Interspeech URGENT 2025 Challenge
 
-URGENT 2025 (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
+The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
 ## Goal
 
-Based on the increasing interest in the generalizability of speech enhancement models, we propose the URGENT Challenge that aims to: 
+The Interspeech 2025 URGENT challenge aims to bring more attention to constructing Universal, Robust and Generalizable speech EnhancemeNT models.
+This year's challenge focuses on the following aspects:
 
-1. Bring more attention to constructing universal speech enhancement models with strong generalizability.
-2. Push forward the progress of speech enhancement research towards more realistic scenarios with a comprehensive evaluation.
-3. Provide insightful and systematic comparison between SOTA discriminative and generative methods in a wide range of conditions, including different distortions and input formats (sampling frequencies and number of microphones).
-4. Provide a benchmark for this direction so that researchers can easily compare different methods.
-5. Allow conclusiveness of method comparisons by providing a set of training data that is exclusive and mandatory for all models.
+1. To adress 7 types of distortions
+    - To improve the universality of SE systems, we consider the following distortions: additive noise, reverberation, clipping, bandwidth extension, codec artifacts, packet loss, and wind noise
+2. To build a robust model in multilingual data
+    - Mose SE research focuses on English data and language dependency of SE systems are still under-explored, particulary for generative models. The dataset in this challenge includes 5 languages (English, German, French, Spanish, and Chinese). 
+3. To leverage noisy but diverse data
+    - How to incorporate noisy speech in training is an important topic to scale up the data amount and diversity. We intentionally included some noisy dataset (CommonVoice) so that participants can investigate how to leverage such data (e,g, data filtering or semi-supervised learning).
+4. To handle inputs with multiple smapling rates
+    - As in the first NeurIPS 2024 URGENT challenge, the model has to accept audios with any sampling rates. The dataset includes 8k, 16k, 22.05k, 24k, 44.1k, and 48kHz data.
 
 
 ## Task Introduction
 
 The task of this challenge is to build **a single speech enhancement system** to adaptively handle input speech with different distortions (corresponding to different SE subtasks) and different input formats (e.g., sampling frequencies) in different acoustic environments (e.g., noise and reverberation).
 
-The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as dynamic mixing to achieve the best generalizability. The data preparation scripts are released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>. Check the [`Data`](/urgent2025/data) tab for more information.
+The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as dynamic mixing to achieve the best generalizability. The data preparation scripts are released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2025_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2025_challenge/</a></d-footnote>. Check the [`Data`](/urgent2025/data) tab for more information.
 
+The URGENT 2025 challenge has two tracks with different data scales to see how well SE models scale. The same test set will be utilized in two tracks.
+- **First track**: We limit the duration of some big corpora (MLS and CommonVoice). The first-track dataset has ~2.5k hours of speech and ~0.5k hours of noise.
+- **Second track**: We do not limit the duration of MLS and CommonVoice datasets, resulting in ~60k hours of speech.
+
+<!--
 We also provide baselines in the [ESPnet](https://github.com/espnet/espnet) toolkit to facilitate the system development. Check the [`Baseline`](/urgent2025/baseline) tab for more information.
+-->
 
 We will evaluate enhanced audios with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. They include four different categories of metrics<d-footnote>An additional category (subjective SE metrics) will be added for the final blind test phase for evaluating the MOS score.</d-footnote>:
 

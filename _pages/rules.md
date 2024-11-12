@@ -131,7 +131,7 @@ bibliography: rules.bib
         <td class="tg-ligs">[-1, 1]</td>
     </tr>
     <tr>
-        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_wer.py">WAcc</a> (=1-WER) ↑</td>
+        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_wer.py">WAcc</a> (=1-WER)<d-footnote>We use the character accuracy (1-CER) for Chinese speech.</d-footnote> ↑</td>
         <td class="tg-kyy7">❌</td>
         <td class="tg-kyy7">16 kHz</td>
         <td class="tg-kyy7">(-∞, 1]</td>
