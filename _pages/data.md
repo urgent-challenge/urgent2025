@@ -298,4 +298,3 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 
 ### Code
 The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
-
