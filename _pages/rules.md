@@ -74,6 +74,12 @@ bibliography: rules.bib
         <td class="tg-xwyw">[1, 5]</td>
     </tr>
     <tr>
+        <td class="tg-0a7q"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_mos.py">UTMOS</a> ↑<d-cite key="UTMOS-SAEKI2022"/></td>
+        <td class="tg-xwyw"><span style="font-weight:400;font-style:normal;text-decoration:none">❌</span></td>
+        <td class="tg-xwyw">16 kHz</td>
+        <td class="tg-xwyw">[1, 5]</td>
+    </tr>
+    <tr>
         <td class="tg-kyy7" rowspan="6">Intrusive SE metrics</td>
         <td class="tg-d459"><a href="http://www.polqa.info" style="color:#e97c36;">POLQA</a><d-footnote>This metric will only be used for evaluation of the final blind test set.</d-footnote> ↑</td>
         <td class="tg-kyy7">✔</td>
