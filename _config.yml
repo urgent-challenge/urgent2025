@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: URGENT
 middle_name:
 last_name: Challenge (2025)
-year: 2024
+year: 2025
 all_challenges:
   2024: "https://urgent-challenge.github.io/urgent2024/"
   2025: "/urgent2025/"
