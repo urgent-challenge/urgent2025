@@ -61,7 +61,7 @@ bibliography: rules.bib
     </thead>
     <tbody>
     <tr>
-        <td class="tg-r6l2" rowspan="2">Non-intrusive SE metrics</td>
+        <td class="tg-r6l2" rowspan="3">Non-intrusive SE metrics</td>
         <td class="tg-rt8k"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_dnsmos.py">DNSMOS</a> ↑<d-cite key="DNSMOS-Reddy2022"/></td>
         <td class="tg-51oy">❌</td>
         <td class="tg-51oy">16 kHz</td>
