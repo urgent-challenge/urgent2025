@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<script src="/urgent2024/assets/js/distillpub/template.v2.js"></script>
+<script src="/urgent2025/assets/js/distillpub/template.v2.js"></script>
 <html lang="{{ site.lang }}">
 
-  <!-- Head -->
-  <head>
+<!-- Head -->
+
+<head>
   {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+  <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
   {% include head.html %}
-  </head>
+</head>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<!-- Body -->
 
-    <!-- Header -->
-    {% include scripts/jquery.html %}
-    {%- include header.html %}
+<body
+  class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
-    </div>
+  <!-- Header -->
+  {% include scripts/jquery.html %}
+  {%- include header.html %}
 
-    <d-appendix>
-      <d-footnote-list></d-footnote-list>
-      <d-citation-list></d-citation-list>
-    </d-appendix>
+  <!-- Content -->
+  <div class="container mt-5">
+    {{ content }}
+  </div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
+  <d-appendix>
+    <d-footnote-list></d-footnote-list>
+    <d-citation-list></d-citation-list>
+  </d-appendix>
 
-    {%- if page.bibliography -%}
-    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
-    {%- endif -%}
+  <!-- Footer -->
+  {%- include footer.html %}
 
-    <!-- JavaScripts -->
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-  </body>
+  {%- if page.bibliography -%}
+  <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+  {%- endif -%}
+
+  <!-- JavaScripts -->
+  {% include scripts/bootstrap.html %}
+  {% include scripts/masonry.html %}
+  {% include scripts/misc.html %}
+  {% include scripts/mathjax.html %}
+  {% include scripts/analytics.html %}
+  {% include scripts/progressBar.html %}
+</body>
+
 </html>
