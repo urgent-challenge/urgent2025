@@ -7,7 +7,7 @@ nav: true
 nav_order: 8
 ---
 
-Below we summarize some frequently asked questions (FAQ) about the URGENT Challenge. If you have any other questions, please feel free to [contact us](/urgent2024/contact).
+Below we summarize some frequently asked questions (FAQ) about the URGENT Challenge. If you have any other questions, please feel free to [contact us](/urgent2025/contact).
 
 <!--
 #### 1. How can I check why my submission failed in the [leaderboard website](https://urgent-challenge.com/competitions/5)?
@@ -15,7 +15,7 @@ Below we summarize some frequently asked questions (FAQ) about the URGENT Challe
 **Answer:** You could go to `Participate` → `Submit / View Results` and unfold the corresponding failed submission. Then click the text `View scoring error log` to download the error message file. It should display the detailed information about the failure.
 
 <details><summary>expand to see instructions in a screenshot</summary><div>
-<img alt="error_message" src="/urgent2024/assets/img/error_log.png" style="max-width: 100%;"/>
+<img alt="error_message" src="/urgent2025/assets/img/error_log.png" style="max-width: 100%;"/>
 </div></details>
 
 #### 2. What does the following error message mean?

@@ -61,14 +61,14 @@ bibliography: rules.bib
     </thead>
     <tbody>
     <tr>
-        <td class="tg-r6l2" rowspan="2">Non-intrusive SE metrics</td>
-        <td class="tg-rt8k"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_dnsmos.py">DNSMOS</a> ↑<d-cite key="DNSMOS-Reddy2022"/></td>
+        <td class="tg-r6l2" rowspan="3">Non-intrusive SE metrics</td>
+        <td class="tg-rt8k"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_dnsmos.py">DNSMOS</a> ↑<d-cite key="DNSMOS-Reddy2022"/></td>
         <td class="tg-51oy">❌</td>
         <td class="tg-51oy">16 kHz</td>
         <td class="tg-51oy">[1, 5]</td>
     </tr>
     <tr>
-        <td class="tg-0a7q"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_nisqa.py">NISQA</a> ↑<d-cite key="NISQA-Mittag2021"/></td>
+        <td class="tg-0a7q"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_nonintrusive_nisqa.py">NISQA</a> ↑<d-cite key="NISQA-Mittag2021"/></td>
         <td class="tg-xwyw"><span style="font-weight:400;font-style:normal;text-decoration:none">❌</span></td>
         <td class="tg-xwyw">48 kHz</td>
         <td class="tg-xwyw">[1, 5]</td>
@@ -87,57 +87,57 @@ bibliography: rules.bib
         <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">[1, 5]</span></td>
     </tr>
     <tr>
-        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">PESQ</a> ↑<d-cite key="PESQ-Rix2001"/></td>
+        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">PESQ</a> ↑<d-cite key="PESQ-Rix2001"/></td>
         <td class="tg-kyy7">✔</td>
         <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">{8, 16} kHz</span></td>
         <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">[-0.5, 4.5]</span></td>
     </tr>
     <tr>
-        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">ESTOI</a> ↑<d-cite key="ESTOI-Jensen2016"/></td>
+        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">ESTOI</a> ↑<d-cite key="ESTOI-Jensen2016"/></td>
         <td class="tg-ligs">✔</td>
         <td class="tg-ligs"><span style="font-weight:400;font-style:normal;text-decoration:none">10 kHz</span></td>
         <td class="tg-ligs">[0, 1]</td>
     </tr>
     <tr>
-        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">SDR</a> ↑<d-cite key="SDR-Vincent2006"/></td>
+        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">SDR</a> ↑<d-cite key="SDR-Vincent2006"/></td>
         <td class="tg-kyy7">✔</td>
         <td class="tg-kyy7">Any</td>
         <td class="tg-kyy7">(-∞, +∞)</td>
     </tr>
     <tr>
-        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">MCD</a> ↓<d-cite key="MCD-Kubichek1993"/></td>
+        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">MCD</a> ↓<d-cite key="MCD-Kubichek1993"/></td>
         <td class="tg-ligs">✔</td>
         <td class="tg-ligs">Any</td>
         <td class="tg-ligs">[0, +∞)</td>
     </tr>
     <tr>
-        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">LSD</a> ↓<d-cite key="LSD-Gray1976"/></td>
+        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">LSD</a> ↓<d-cite key="LSD-Gray1976"/></td>
         <td class="tg-kyy7">✔</td>
         <td class="tg-kyy7">Any</td>
         <td class="tg-kyy7">[0, +∞)</td>
     </tr>
     <tr>
         <td class="tg-rq3n" rowspan="2">Downstream-task-independent metrics</td>
-        <td nowrap class="tg-mfxt"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_speechbert_score.py">SpeechBERTScore</a><d-footnote>To evaluate multilingual speech, we adopt the MHuBERT-147 backend for calculating the SpeechBERTScore, which differs from its defalut backend (WavLM-Large).</d-footnote> ↑<d-cite key="SpeechBERTScore-Saeki2024"/></td>
+        <td nowrap class="tg-mfxt"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_speechbert_score.py">SpeechBERTScore</a><d-footnote>To evaluate multilingual speech, we adopt the MHuBERT-147 backend for calculating the SpeechBERTScore, which differs from its defalut backend (WavLM-Large).</d-footnote> ↑<d-cite key="SpeechBERTScore-Saeki2024"/></td>
         <td class="tg-rq3n">✔</td>
         <td class="tg-rq3n">16 kHz</td>
         <td class="tg-rq3n">[-1, 1]</td>
     </tr>
     <tr>
-        <td class="tg-qmuc"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_phoneme_similarity.py">LPS</a> ↑<d-cite key="Evaluation-Pirklbauer2023"/></td>
+        <td class="tg-qmuc"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_phoneme_similarity.py">LPS</a> ↑<d-cite key="Evaluation-Pirklbauer2023"/></td>
         <td class="tg-r6l2">✔</td>
         <td class="tg-r6l2">16 kHz</td>
         <td class="tg-r6l2"><span style="font-weight:400;font-style:normal;text-decoration:none">(-∞, 1]</span></td>
     </tr>
     <tr>
         <td class="tg-ligs" rowspan="2">Downstream-task-dependent metrics</td>
-        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_speaker_similarity.py">SpkSim</a> ↑</td>
+        <td class="tg-r2ra"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_speaker_similarity.py">SpkSim</a> ↑</td>
         <td class="tg-ligs">✔</td>
         <td class="tg-ligs">16 kHz</td>
         <td class="tg-ligs">[-1, 1]</td>
     </tr>
     <tr>
-        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_wer.py">WAcc</a> (=1-WER)<d-footnote>We use the character accuracy (1-CER) for Chinese speech.</d-footnote> ↑</td>
+        <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/evaluation_metrics/calculate_wer.py">WAcc</a> (=1-WER)<d-footnote>We use the character accuracy (1-CER) for Chinese speech.</d-footnote> ↑</td>
         <td class="tg-kyy7">❌</td>
         <td class="tg-kyy7">16 kHz</td>
         <td class="tg-kyy7">(-∞, 1]</td>

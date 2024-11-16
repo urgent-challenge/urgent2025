@@ -14,7 +14,7 @@ The submission system will be open from November 25th, 2024, to January 15th, 20
 
 * Each submission should be **a zip file** containing two parts:
     1. enhanced audios corresponding to the subset to be tested;
-    2. a YAML (README.yaml) file containing the basic information about the submission (as listed below). The template can be found [here](/urgent2024/template).
+    2. a YAML (README.yaml) file containing the basic information about the submission (as listed below). The template can be found [here](/urgent2025/template).
         * team information (team name, affiliation, team mambers)
         * description of the training & validation data used for the submission
         * description of pre-trained models used for the submission (if applicable)
