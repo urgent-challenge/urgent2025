@@ -9,9 +9,6 @@ nav_order: 5
 bibliography: baseline.bib
 ---
 
-To be announced
-
-
 ## Basic Framework
 
 <img alt="framework" src="/urgent2025/assets/img/framework.png" style="max-width: 100%;"/>
