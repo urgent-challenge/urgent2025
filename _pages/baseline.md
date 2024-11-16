@@ -37,9 +37,6 @@ How to run training/inference is desribed in [egs2/urgent25/enh1/README.md](http
       * We will provide the pretrained TF-GridNet model using the [provided config](https://github.com/kohei0209/espnet/blob/urgent2025/egs2/urgent25/enh1/conf/tuning/train_enh_tfgridnet_dm.yaml) soon.
   * To run a recipe, you basically only need to execute the following command after [installing ESPnet from source](https://espnet.github.io/espnet/installation.html):
     <br/><span>For explanation of the arugments in `./run.sh`, please refer to [`egs2/TEMPLATE/enh1/enh.sh`](https://github.com/espnet/espnet/blob/master/egs2/TEMPLATE/enh1/enh.sh).</span>
-    <d-code block language="bash">
-cd &lt;espnet-path&gt;/egs2/urgent24/enh1
-<br/>
 
 <!--
 # data preparation (this will clone the challenge repository)
