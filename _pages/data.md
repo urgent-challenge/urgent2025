@@ -144,7 +144,7 @@ border-bottom: 1px solid #cccccc;
     <td> CC-NC 4.0</td>
   </tr>
   <tr>
-    <td>Multilingual Librispeech (de, en, es, fr)</td>
+    <td>Multilingual Librispeech (de, en, es, fr)<d-footnote>We collected less compressed MLS from LibriVox, which have higher audio quality than the original MLS for ASR.</d-footnote></td>
     <td>Audiobook</td>
     <td>8~48</td>
     <td>~450 (48600) h</td>
@@ -226,21 +226,25 @@ border-bottom: 1px solid #cccccc;
 >
 > We allow participants to simulate wind noise using some tools such as <a href="https://github.com/audiolabs/SC-Wind-Noise-Generator/tree/main">SC-Wind-Noise-Generator</a>. In default, the simulation script in our repository simulates 200 and 100 wind noises for training and validation for each sampling frequency. The configuration can be easily changed in <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_train.yaml">wind_noise_simulation_train.yaml</a> and <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_validation.yaml">wind_noise_simulation_validation.yaml</a>
 
+
 ### Pre-processing
 
 <img alt="pre-processing" src="/urgent2025/assets/img/preprocessing.png" style="max-width: 100%;"/>
 
-Before simulation, all collected speech and noise data are pre-processed to filter out low-quality samples and to detect the true sampling frequency (SF).
+Before simulation, some speech and noise data are pre-processed to filter out low-quality samples and to detect the true sampling frequency (SF).
+Specifically, we applied data filtering (described below) to LibriVox, LibriTTS, and CommonVoice (track1)<d-footnote>In Track2, participants are allowed to use the entire data from CommonVoice 19.0 and we thus do not do any data filtering.</d-footnote>.
+
 The pre-processing procedure includes:
 
 1. We first estimate the effective bandwidth of each speech and noise sample based on the energy thresholding algorithm proposed in <d-cite key="Hi_Fi-Bakhturina2021"/><d-footnote><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/utils/estimate_audio_bandwidth.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/estimate_audio_bandwidth.py</a></d-footnote>. This is critical for our proposed method to successfully handle data with different SFs. Then, we resample each speech and noise sample accordingly to the best matching SF, which is defined as the lowest SF among {8, 16, 22.05, 24, 32, 44.1, 48} kHz that can fully cover the estimated effective bandwidth.
 2. A voice activity detection (VAD) algorithm<d-footnote><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/utils/filter_via_vad.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_vad.py</a></d-footnote> is further used to detect “bad” speech samples that are actually non-speech or mostly silence, which will be removed from the data.
 3. Finally, the non-intrusive DNSMOS scores (OVRL, SIG, BAK)<d-cite key="DNSMOS-Reddy2022"/><d-footnote><a href="https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py">https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py</a></d-footnote> are calculated for each remaining speech sample. This allows us to filter out noisy and low-quality speech samples via thresholding each score<d-footnote><a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/utils/filter_via_dnsmos.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_dnsmos.py</a></d-footnote>.
 
-We finally curated a list of speech sample (~2500 hours) and noise samples (~500 hours) based on the above procedure that will be used for simulating the training and validation data in the challenge.
+We finally curated a list of speech sample (~2500 hours) and noise samples (~500 hours) for Track1 based on the above procedure that will be used for simulating the training and validation data in the challenge.
 
-Note that the data filtering is not perfect and the dataset still has non-ignorable amount of noisy samples.
-**One of the goal of this challenge is to encourage participants to develop how to leverage (or remove) such noisy data** to improve the final SE performance.
+Note that the data filtering is inperfect and the dataset still has non-ignorable amount of noisy samples.
+**One of the goal of this challenge is to encourage participants to develop how to leverage (or filter out) such noisy data** to improve the final SE performance.
+
 
 ### Simulation
 
