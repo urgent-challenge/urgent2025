@@ -9,6 +9,9 @@ nav_order: 3
 bibliography: data.bib
 ---
 
+### Data preparation code
+Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).)
+
 ### Data description
 
 The training and validation data are both simulated based on the following source data.
@@ -299,6 +302,3 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 * However, the scale of the enhanced audio is not critical for objective evaluation the challenge, as the evaluation metrics are made largely insensitive to the scale. For subjective listening in the final phase, however, it is recommended that the participants properly scale the enhanced audios to facilitate a consistent evaluation.
 
 * For all different distortion types, the original sampling frequency of each clean speech sample is always preserved, i.e., the degraded speech sample also shares the same sampling frequency. For `bandwidth_limitation` augmentation, this means that the generated speech sample is resampled to the original sampling frequency `fs`.
-
-### Code
-The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
