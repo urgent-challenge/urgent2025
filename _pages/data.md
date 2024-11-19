@@ -10,11 +10,12 @@ bibliography: data.bib
 ---
 
 ### Data preparation code
-Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).)
+Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
 
 ### Data description
-
 The training and validation data are both simulated based on the following source data.
+Note that the validation set made by the [provided script]((https://github.com/urgent-challenge/urgent2025_challenge)) is different from the official validation set used in the leaderboard, although the data source and the type of distortions do not change.
+The official one will be provided on when the leaderboard opens (Nov. 25). Note that we only provide the noisy data but not the ground truth of the official validation set until the leaderboard swithces to test phase (Dec. 23) to avoid cheating in the leaderboard.
 
 The challenge has two tracks: 
  - **First track**: We limit the duration of MLS and CommonVoice, resulting in ~2.5k hours of speech.
