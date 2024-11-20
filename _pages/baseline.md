@@ -22,6 +22,8 @@ During training and inference, the processing of different SFs is supported for 
 * For conventional SE models (e.g., Conv-TasNet<d-cite key="Conv_TasNet-Luo2019"/>), we always **upsample** its input (degraded speech) to the highest SF (48 kHz) so that the model only need to operate at 48 kHz. The model output (48 kHz) is then **downsampled** to the same SF as the degraded speech.
 * For adaptive STFT-based SFI<d-cite key="Sampling-Paulus2022,Toward-Zhang2023,Improving-Zhang2024"/> SE models (e.g., BSRNN<d-cite key="Music-Luo2023,Efficient-Yu2023,High-Yu2023"/>, TF-GridNet<d-cite key="TF_GridNet-Wang2023,TF_GridNet2-Wang2023"/>), we directly feed the degraded speech of different SFs into the model, which can adaptively adjust their STFT/iSTFT configuration according to the SF and generate the enhanced signal with the same SF.
 
+</br>
+
 ## Baselines in ESPnet
 
 We provide offical baselines and the corresponding recipe ([`egs2/urgent25/enh1`](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)) based on the ESPnet toolkit.

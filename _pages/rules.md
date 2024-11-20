@@ -19,12 +19,20 @@ bibliography: rules.bib
             * It is not allowed to fine-tune any model, be it pre-trained or not, on any extra data other than the listed data.<br/><br/>
     * It is allowed to use a model trained on the "NeurIPS 2024 URGENT challenge" data, as those data are included in this challenge too.
 
+</br>
+
 2. The test data should only be used for evaluation purposes. **Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are NOT allowed for this challenge**.
+
+</br>
 
 3. There is no constraint on the latency or causality of the developed system in this challenge. Any type of model can be used as long as they conform to the other rules as listed in this page.
 
+</br>
+
 4. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2025/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2025/submission) tab.
     * Only the team name will be shown in the leaderboard, while the affiliation and team members will be kept confidential.<br/><br/>
+
+</br>
 
 5. The following evaluation metrics will be calculated for evaluation.
     
@@ -153,6 +161,8 @@ bibliography: rules.bib
     </table><br/>
 
     > **Note:** For real recorded test samples that do not have a strictly matched reference signal, part of the above metrics will be used.
+
+</br>
 
 6. The overall ranking will be determined via the following procedure:
 

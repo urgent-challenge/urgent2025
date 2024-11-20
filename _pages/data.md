@@ -12,6 +12,8 @@ bibliography: data.bib
 ### Data preparation code
 Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
 
+</br>
+
 ### Data description
 The training and validation data are both simulated based on the following source data.
 Note that the validation set made by the [provided script]((https://github.com/urgent-challenge/urgent2025_challenge)) is different from the official validation set used in the leaderboard, although the data source and the type of distortions do not change.
@@ -231,6 +233,8 @@ border-bottom: 1px solid #cccccc;
 > We allow participants to simulate wind noise using some tools such as <a href="https://github.com/audiolabs/SC-Wind-Noise-Generator/tree/main">SC-Wind-Noise-Generator</a>. In default, the simulation script in our repository simulates 200 and 100 wind noises for training and validation for each sampling frequency. The configuration can be easily changed in <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_train.yaml">wind_noise_simulation_train.yaml</a> and <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_validation.yaml">wind_noise_simulation_validation.yaml</a>
 
 
+</br>
+
 ### Pre-processing
 
 <img alt="pre-processing" src="/urgent2025/assets/img/preprocessing.png" style="max-width: 100%;"/>
@@ -250,6 +254,8 @@ Note that the data filtering is inperfect and the dataset still has non-ignorabl
 **One of the goal of this challenge is to encourage participants to develop how to leverage (or filter out) such noisy data** to improve the final SE performance.
 
 
+</br>
+
 ### Simulation
 
 With the proviced scripts in the next section, the simulation data can be generated offline in two steps.
@@ -259,6 +265,7 @@ With the proviced scripts in the next section, the simulation data can be genera
 2. In the second step, the simulation can be done in parallel via [`simulation/simulate_data_from_param.py`](https://github.com/urgent-challenge/urgent2025_challenge/blob/main/simulation/simulate_data_from_param.py) for different samples according to the manifest while ensuring reproducibility. This procedure can be used to generate training and validation datasets.
 
 For the training set, **we recommend dynamically generating degraded speech samples during training** to increase the data diversity.
+
 
 
 #### Distortions

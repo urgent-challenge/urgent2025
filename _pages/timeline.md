@@ -12,7 +12,7 @@ nav_order: 2
 |:---------------------------------:|:---------------------------|
 |     November 15, 2024             | **Start of the challenge** |
 |  November15-December15 2024       | Grace Period for new dataset proposal from participants |
-|     November 25, 2024             | Leaderboard (validation) opens |
+|     November 25, 2024             | Release of official validation data. Leaderboard opens. |
 |     December 23, 2024             | Release of non-blind test data. Leaderboard is switched to test data. |
 |     January 13, 2025              | Release of blind test data. Leaderboard is swithed to blind-test data for final ranking. |
 |     January 15, 2025              | **End of the challenge**   |
