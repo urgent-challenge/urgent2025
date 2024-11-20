@@ -18,7 +18,9 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 80%;"/>
+<div style="text-align: center;">
+    <img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 90%;" />
+</div>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
@@ -45,8 +47,6 @@ The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizab
 - Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
 
-##  
-
 ## Goal
 
 The Interspeech 2025 URGENT challenge aims to bring more attention to constructing Universal, Robust and Generalizable speech EnhancemeNT models.
@@ -61,8 +61,6 @@ This year's challenge focuses on the following aspects:
 4. To handle inputs with multiple smapling rates
     - As in the former "NeurIPS 2024 URGENT challenge", **the model has to accept audios with the following sampling rates**: 8k, 16k, 22.05k, 24k, 44.1k, and 48kHz.
 
-
-##  
 
 ## Task Introduction
 
@@ -84,9 +82,6 @@ We will evaluate enhanced audios with a variety of metrics to comprehensively un
 More details about the evaluation plan can be found in the [`Rules`](/urgent2025/rules) tab.
 
 
-##  
-
-
 ## Two tracks
 The URGENT 2025 challenge has two tracks with different data scales. **Participants may participate in track 1, track 2, or both.** The same test set will be utilized in two tracks.
 - **Track 1**: We limit the duration of some big corpora (MLS and CommonVoice). The first-track dataset has ~2.5k hours of speech and ~0.5k hours of noise.
@@ -102,13 +97,9 @@ Participants may want to start by training the best system developed in track1 w
 Data selection techniques (e.g., based on diversity or estimated MOS scores) would be helpful to efficiently train the model.
 
 
-##  
-
 ## Communication
 We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
 
-
-##  
 
 ## Motivation
 

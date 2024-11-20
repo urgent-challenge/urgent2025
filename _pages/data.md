@@ -12,7 +12,6 @@ bibliography: data.bib
 ### Data preparation code
 Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
 
-</br>
 
 ### Data description
 The training and validation data are both simulated based on the following source data.
@@ -233,8 +232,6 @@ border-bottom: 1px solid #cccccc;
 > We allow participants to simulate wind noise using some tools such as <a href="https://github.com/audiolabs/SC-Wind-Noise-Generator/tree/main">SC-Wind-Noise-Generator</a>. In default, the simulation script in our repository simulates 200 and 100 wind noises for training and validation for each sampling frequency. The configuration can be easily changed in <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_train.yaml">wind_noise_simulation_train.yaml</a> and <a href="https://github.com/urgent-challenge/urgent2025_challenge/blob/main/conf/wind_noise_simulation_validation.yaml">wind_noise_simulation_validation.yaml</a>
 
 
-</br>
-
 ### Pre-processing
 
 <img alt="pre-processing" src="/urgent2025/assets/img/preprocessing.png" style="max-width: 100%;"/>
@@ -254,7 +251,6 @@ Note that the data filtering is inperfect and the dataset still has non-ignorabl
 **One of the goal of this challenge is to encourage participants to develop how to leverage (or filter out) such noisy data** to improve the final SE performance.
 
 
-</br>
 
 ### Simulation
 
