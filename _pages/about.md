@@ -18,7 +18,7 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 100%;"/>
+<img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 80%;"/>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
@@ -45,7 +45,7 @@ The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizab
 - Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
 
-</br>
+##  
 
 ## Goal
 
@@ -62,7 +62,7 @@ This year's challenge focuses on the following aspects:
     - As in the former "NeurIPS 2024 URGENT challenge", **the model has to accept audios with the following sampling rates**: 8k, 16k, 22.05k, 24k, 44.1k, and 48kHz.
 
 
-</br>
+##  
 
 ## Task Introduction
 
@@ -84,7 +84,7 @@ We will evaluate enhanced audios with a variety of metrics to comprehensively un
 More details about the evaluation plan can be found in the [`Rules`](/urgent2025/rules) tab.
 
 
-</br>
+##  
 
 
 ## Two tracks
@@ -102,13 +102,13 @@ Participants may want to start by training the best system developed in track1 w
 Data selection techniques (e.g., based on diversity or estimated MOS scores) would be helpful to efficiently train the model.
 
 
-</br>
+##  
 
 ## Communication
 We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
 
 
-</br>
+##  
 
 ## Motivation
 
