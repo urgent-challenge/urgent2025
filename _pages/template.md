@@ -30,37 +30,71 @@ team_members:
 #-------------------------------------------
 # Data description
 #-------------------------------------------
-training_data: simulated on the fly using the official configuration
-use_additional_rirs: True
+# e.g., "simulated on the fly using the official configuration"
+training_data: 
+
+use_additional_rirs:  # true or false
 additional_rir_info:
+    # example:
+        # is_real: True
+        # source: https://url.to.real.rirs
+        # number_of_samples: 1000
+
     # RIR 1 (for real RIRs, only those included in the official data list are allowed)
     1:
-        is_real: True
-        source: https://url.to.real.rirs
-        number_of_samples: 1000
+        is_real:
+        source:
+        number_of_samples:
     # RIR 2
     2:
-        is_real: False
-        source: https://url.to.rir.simulator
-        number_of_samples: 10000
+        is_real:
+        source:
+        number_of_samples:
 
-validation_data: same as official validation data (39 hours)
+# e.g., "same as official validation data"
+validation_data: 
 
 
 #-------------------------------------------
-# Additional information
-# If any pre-trained model is used to develop the speech enhancement system, please provide its information below. For example:
+# System description
 #-------------------------------------------
-use_pretrained_models: True
+# "discriminative", "generative", "discriminative followed by generative", etc.
+system_type: 
+
+# please briefly describe the architecture here
+# e.g., CNN, Transformer.
+model_architecture:
+
+# model parameter size in million, e.g., 6.23 [M]
+model_size:
+
+# time, time-frequency, etc.
+domain:
+
+# please briefly describe loss function here
+# e.g., "time-domain si-snr", "time-domain l1 + TF-domain gan", etc.
+loss_funcition:
+
+# please briefly describe data augmentation here
+# mp3 compression, wind noise, etc.
+data_augmentation: 
+
+
+use_pretrained_models:  # true or false
 pretrained_models:
+    # example:
+        # name: HuBERT-Large
+        # link: https://huggingface.co/facebook/hubert-large-ll60k
+        # usage: used for converting the input speech signal into discrete tokens
+
     # Pre-trained model 1
     1:
-        name: HuBERT-Large
-        link: https://huggingface.co/facebook/hubert-large-ll60k
-        usage: used for converting the input speech signal into discrete tokens
+        name:
+        link:
+        usage:
     # Pre-trained model 2
     2:
-        name: EnCodec
-        link: https://github.com/facebookresearch/encodec
-        usage: used for generating compressed speech features
+        name:
+        link:
+        usage:
 ```

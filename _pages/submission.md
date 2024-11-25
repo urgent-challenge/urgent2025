@@ -10,6 +10,11 @@ nav_order: 6
 
 The submission system will be open from November 25th, 2024, to January 15th, 2025 (23:59:59 AoE).
 
+### Registration to leaderboard
+
+Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
+
+
 ### Submission format and requirements
 
 * Each submission should be **a zip file** containing two parts:
@@ -34,12 +39,9 @@ The submission system will be open from November 25th, 2024, to January 15th, 20
     * The audio files should be encoded in mono-channel with its original sampling frequency.
     * All audio files should have the same **name** and **length** as the original audio files in the provided subset to be tested.
 * Be careful not to include hidden directories in the zip file such as `__MACOSX/` which may cause evaluation failure.
-<!-- * The submission should be directly sent to the organizers via email at [urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com).
-  * The subject of the email should be `URGENT2024 Submission from team {your_teamname}`.
 * The submission should be done via our [official leaderboard website](https://urgent-challenge.com/):
   * A registration (please sign up at [https://urgent-challenge.com](https://urgent-challenge.com/)) is required to participate in our challenge.
   * Each team shall only register **once**. Multiple registrations from different members in one team are not allowed.
--->
 * Each team can submit up to **2 submissions per day** during the challenge.
   * The third and later submissions will be ignored. The quota will be reset at 00:00 (UTC timezone) every day.
   * Failed submissions are not taken into account when counting the submissions per day.
