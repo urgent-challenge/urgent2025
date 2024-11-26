@@ -9,8 +9,10 @@ nav_order: 3
 bibliography: data.bib
 ---
 
-### Data preparation code
+### Data preparation
 Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
+
+(2024-11-25) Official validation set for the leaderboard submission is available [here](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view).
 
 
 ### Data description

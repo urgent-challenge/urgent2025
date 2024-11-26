@@ -9,6 +9,13 @@ nav_order: 5
 bibliography: baseline.bib
 ---
 
+## Baseline code and checkpoint
+
+Please refer to `Baselines in ESPnet` below for more details.
+- Baseline script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
+- Baseline TF-GridNet pre-trained model [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
+
+
 ## Basic Framework
 
 <img alt="framework" src="/urgent2025/assets/img/framework.png" style="max-width: 100%;"/>

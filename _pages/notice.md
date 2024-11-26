@@ -8,9 +8,12 @@ nav: true
 nav_order: 9
 ---
 
-<!--
-* **[2024-10-21]** We have announced the final results of the challenge in https://urgent-challenge.com/competitions/5#final_results.
 
+* **[2024-11-26]** We have released the checkpoint of the baseline TF-GridNet model at [HuggingFace](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main).
+
+* **[2024-11-26]** We have opened the leaderboard and released the `official valdation set` for leaderbord submission. Refer to [`Submission`](/urgent2025/submission) and [`Data`](/urgent2025/data) tab for more details.
+
+<!--
 * **[2024-09-22]** The blind test phase has officially ended. We will start the subjective evaluation soon.
 
 * **[2024-09-20]** We have postponed the submission deadline by one day in the [`Timeline`](/urgent2025/timeline) tab to compensate for the laggy evaluation server.
