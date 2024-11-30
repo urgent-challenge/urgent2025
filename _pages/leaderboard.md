@@ -14,11 +14,11 @@ The blind test leaderboard has been closed since the challenge has completed. Th
 
 -->
 
-1. To make submissions to the leaderboard, you will need to sign up first with your email address. A verification email will be sent to that address. Please click the link in the email to activate your account.
+1. To make submissions to the leaderboard, you will need to sign up first with your email address at the [competition page](https://urgent-challenge.com). A verification email will be sent to that address. Please click the link in the email to activate your account.
 
 2. Then go to the [competition page](https://urgent-challenge.com/competitions/13) and click the `Participate` tab to start the registration.
 
-3. After that, you will receive an email message to confirm your registration. Please click the Google Form link in the email to submit the information of your team.
+3. After that, you will receive an email to confirm your registration. The email includes a Google Form link. **Please submit the Google Form** to finilize your registration.
 
 4. We (organizers) will receive a notification after you submit the form and we will approve your participation.
 
