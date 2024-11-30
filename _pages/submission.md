@@ -7,9 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-
-The submission system will be open from November 25th, 2024, to January 15th, 2025 (23:59:59 AoE).
-
 ### Registration to leaderboard
 
 Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
