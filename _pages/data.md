@@ -225,7 +225,7 @@ border-bottom: 1px solid #cccccc;
 </tbody>
 </table>
 
-> For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC. Please include your name and organization/affiliation in the email for a smooth procedure.
+> For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC. Please include your name, organization/affiliation, and the username used in the leaderboard in the email for a smooth procedure. Note that we do not accept the request unless you have registered to the [leaderboard](/urgent2025/leaderboard).
 >
 > We allow participants to simulate their own RIRs using existing tools<d-footnote>For example, <a href="https://github.com/ehabets/RIR-Generator">RIR-Generator</a>, <a href="https://github.com/LCAV/pyroomacoustics">pyroomacoustics</a>, <a href="https://github.com/DavidDiazGuerra/gpuRIR">gpuRIR</a>,  and so on.</d-footnote> for generating the training data.
 > The participants can also propose publicly available real recorded RIRs to be included in the above data list during the grace period (See [`Timeline`](/urgent2025/timeline)).
