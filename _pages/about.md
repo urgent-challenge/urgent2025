@@ -37,6 +37,8 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
+<br>
+
 ## Interspeech URGENT 2025 Challenge
 
 The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
@@ -47,6 +49,7 @@ The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizab
 - Baseline pre-trained model [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
 - Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
+<br>
 
 ## Goal
 
@@ -62,6 +65,7 @@ This year's challenge focuses on the following aspects:
 4. To handle inputs with multiple smapling rates
     - As in the former "NeurIPS 2024 URGENT challenge", **the model has to accept audios with the following sampling rates**: 8k, 16k, 22.05k, 24k, 44.1k, and 48kHz.
 
+<br>
 
 ## Task Introduction
 
@@ -82,6 +86,7 @@ We will evaluate enhanced audios with a variety of metrics to comprehensively un
 
 More details about the evaluation plan can be found in the [`Rules`](/urgent2025/rules) tab.
 
+<br>
 
 ## Two tracks
 The URGENT 2025 challenge has two tracks with different data scales. **Participants may participate in track 1, track 2, or both.** The same test set will be utilized in two tracks.
@@ -97,10 +102,12 @@ Note that although the dataset in Track 2 is huge, **participants do not have to
 Participants may want to start by training the best system developed in track1 with some data from track2.
 Data selection techniques (e.g., based on diversity or estimated MOS scores) would be helpful to efficiently train the model.
 
+<br>
 
 ## Communication
 We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
 
+<br>
 
 ## Motivation
 

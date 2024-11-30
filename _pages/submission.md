@@ -7,10 +7,13 @@ nav: true
 nav_order: 6
 ---
 
+<br>
+
 ### Registration to leaderboard
 
 Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
 
+<br>
 
 ### Submission format and requirements
 
@@ -49,6 +52,8 @@ Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
 > Submissions that fail to conform to the above requirements may be rejected.
 >
 > Should you encounter any problem during the submission, please feel free to [contact the organizers](mailto:urgent.challenge@gmail.com).
+
+<br>
 
 ### Agreement
 
