@@ -14,22 +14,22 @@ The blind test leaderboard has been closed since the challenge has completed. Th
 
 -->
 
-1. To make submissions to the leaderboard, you will need to sign up first with your email address at the [competition page](https://urgent-challenge.com). A verification email will be sent to that address. Please click the link in the email to activate your account.
+<br>
 
-2. Then go to the [competition page](https://urgent-challenge.com/competitions/13) and click the `Participate` tab to start the registration.
+### Leaderboard registration
 
-3. After that, you will receive an email to confirm your registration. The email includes a Google Form link. **Please submit the Google Form** to finilize your registration.
+1. Sign up the [competition page](https://urgent-challenge.com). Please click the link in the verification email to activate your account.
 
-4. We (organizers) will receive a notification after you submit the form and we will approve your participation.
+2. Register the leaderboard from the `Participate` tab at the [competition page](https://urgent-challenge.com/competitions/13).
 
-5. Then you can download the test set from the `Participate → Get Data` tab and start to make submissions in the `Participate → Submit / View Results` tab.
+3. **Submit the Google Form** (in the email you receieve after step 2) to finilize your registration. 
+
+4. Your application wii be approved AFTER we organizers receive the Google Form.
+
+<!-- 5. Then you can download the test set from the `Participate → Get Data` tab and start to make submissions in the `Participate → Submit / View Results` tab.-->
 > It usually takes ~1 hour to finish the evaluation for each submission. You can click the `Refresh status` to check the evaluation status in the `Participate → Submit / View Results` tab.
 
-### Note
-
-In the leaderboard, there are two official entries:
-  * The entry submitted by the user `urgent` represents the official baseline.
-  * The entry submitted by the user `noisy` represents the result of the original noisy input speech (without enhancement).
+<br>
 
 ### How to read the leaderboard?
 
@@ -38,3 +38,11 @@ In the leaderboard, there are two official entries:
       * For each metric cell, the first number represents the metric value, and the second number in parentheses represents the rank of this metric among all submissions.
       * For the final blind test phase, an additional category (`Subjective SE metrics`) will be added to evaluate the MOS score. See [`Data`](/urgent2025/data) for more information.
   * The last column (overall ranking score) represents the final score used for ranking all submissions. It is calculated following the rules defined in the [`Rules`](/urgent2025/rules) tab.
+
+<br>
+
+### Note
+
+There are two official entries in the leaderboard:
+  * The entry submitted by the user `urgent` represents the official baseline.
+  * The entry submitted by the user `noisy` represents the result of the original noisy input speech (without enhancement).
