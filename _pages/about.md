@@ -19,7 +19,7 @@ bibliography: about.bib
 
 
 <div style="text-align: center;">
-    <img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 90%;" />
+    <img alt="introduction" src="/urgent2025/assets/img/urgent2025.png" style="max-width: 85%;" />
 </div>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
@@ -43,12 +43,11 @@ if isinstance(speech_mix, np.ndarray):
 
 The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
-
 #### Links
 
 - Data preparation script: [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge)
 
-- Official validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
+- Validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
 
 - Leaderboard: [https://urgent-challenge.com](https://urgent-challenge.com)
 
@@ -58,6 +57,12 @@ The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizab
 
 - Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
+
+<br>
+
+## Registration
+Registration for the leaderboard and Google Form submission are required.
+Refer to the [`Leaderboard`](/urgent2025/leaderboard) tab for more details.
 
 <br>
 
