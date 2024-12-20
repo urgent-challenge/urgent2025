@@ -43,26 +43,18 @@ if isinstance(speech_mix, np.ndarray):
 
 The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge held at [**Interspeech 2025**](https://www.interspeech2025.org/home). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
-#### Links
 
-- Data preparation script: [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge)
+## Contents
 
-- Validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
+-  [Goal](#goal)
+-  [Task introduction](#task-introduction)
+-  [Tracks](#two-tracks)
+-  [Registration](#registration)
+-  [Paper submission](#paper-submission)
+-  [Slack channel](#slack-channel)
+-  [Links to data preparation/baseline scripts, leaderboard, etc.](#links)
+-  [Motication](#motivation)
 
-- Leaderboard: [https://urgent-challenge.com](https://urgent-challenge.com)
-
-- Baseline script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
-
-- Baseline pre-trained model: [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
-
-- Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
-
-
-<br>
-
-## Registration
-Registration for the leaderboard and Google Form submission are required.
-Refer to the [`Leaderboard`](/urgent2025/leaderboard) tab for more details.
 
 <br>
 
@@ -119,8 +111,39 @@ Data selection techniques (e.g., based on diversity or estimated MOS scores) wou
 
 <br>
 
-## Communication
+## Registration
+Registration for the leaderboard and Google Form submission are required.
+Refer to the [`Leaderboard`](/urgent2025/leaderboard) tab for more details.
+
+<br>
+
+## Paper submission
+
+Participants can submit a paper describing the submitted SE system to the [Interspeech 2025](https://www.interspeech2025.org/home). **The submitted papers will go through the same review process** as the regular papers and will be indexed and included in the ISCA archive.
+
+Please note that participants need to choose "**14.09 Interspeech 2025 URGENT Challenge [Challenge]**" as the subject area when submitting the paper. The registration platform is already available.
+
+
+<br>
+
+## Slack channel
 We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
+
+<br>
+
+## Links
+
+- Data preparation script: [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge)
+
+- Validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
+
+- Leaderboard: [https://urgent-challenge.com](https://urgent-challenge.com)
+
+- Baseline script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
+
+- Baseline pre-trained model: [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
+
+- Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
 <br>
 
