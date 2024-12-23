@@ -53,7 +53,7 @@ The Interspeech 2025 URGENT challenge (Universality, Robustness, and Generalizab
 -  [Paper submission](#paper-submission)
 -  [Slack channel](#slack-channel)
 -  [Links to data preparation/baseline scripts, leaderboard, etc.](#links)
--  [Motication](#motivation)
+-  [Motivation](#motivation)
 
 
 <br>
