@@ -11,16 +11,21 @@ bibliography: rules.bib
 
 1. When generating the training and validation datasets, **ONLY the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2025/data) tab shall be used to ensure a fair comparison** and proper understanding of various SE approaches.
     * The first month of the challenge (until Dec. 15) will be a grace period when participants can propose additional public datasets to be included in the list. We (organizers) will reply to the requests and may update the list. Updates will be recorded in the [`Notice`](/urgent2025/notice) tab.
+    
+    * **It is NOT allowed to use pre-trained speech enhancement models trained on other than official Challenge data**.
+      * However, it IS allowed to use a pre-trained model trained on the official challenge data (e.g., [URGENT 2024](https://huggingface.co/wyz/tfgridnet_for_urgent24) / [URGENT 2025](https://huggingface.co/kohei0209/tfgridnet_urgent25) official baseline ) 
+    
     * Although the speech enhancement model should only be trained on the listed data, we allow the use of pre-trained foundation models such as [HuBERT](https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md), [WavLM](https://github.com/microsoft/unilm/blob/master/wavlm/README.md), [EnCodec](https://github.com/facebookresearch/encodec), [Llama](https://llama.meta.com/llama-downloads/), and so on as long as:
         * they are publicly available before the challenge begins
-        * and they are explicitly mentioned in the submitted system description.
+        * they are explicitly mentioned in the submitted system description.
         * Note:
             * Their parameters can be fine-tuned on the listed data.
             * It is not allowed to fine-tune any model, be it pre-trained or not, on any extra data other than the listed data.<br/><br/>
-    * It is allowed to use a model trained on the "NeurIPS 2024 URGENT challenge" data, as those data are included in this challenge too.
+
+    * **If you are unsure whether the pre-trained model you would like to use is allowed, please reach out to the organizers.**.
 
 
-2. The test data should only be used for evaluation purposes. **Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are NOT allowed for this challenge**.
+2. The test data should only be used for evaluation purposes. **Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are NOT allowed**.
 
 
 3. There is no constraint on the latency or causality of the developed system in this challenge. Any type of model can be used as long as they conform to the other rules as listed in this page.
