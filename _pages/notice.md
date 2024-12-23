@@ -8,6 +8,7 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-12-23]** To accommodate the short challenge period, we have decided to extend the challegnge period for one week. The blind-test phase, originally scheduled for Jan. 13–15, is now rescheduled to Jan. 20–22. Due to the shortened evaluation timeline, the subjective evaluation protocol will change. Please refer to [`Timeline`](/urgent2025/timeline) tab for more details.
 
 * **[2024-11-26]** We have released the checkpoint of the baseline TF-GridNet model at [HuggingFace](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main).
 
