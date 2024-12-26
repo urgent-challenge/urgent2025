@@ -16,6 +16,8 @@ Official data preparation code is available at [https://github.com/urgent-challe
 
 (2024-11-25) Official validation set for the leaderboard submission is available [here](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view).
 
+(2024-12-25) Non-blind test set is available [here](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
+
 <br>
 
 ### Data description

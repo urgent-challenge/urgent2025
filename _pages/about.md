@@ -137,6 +137,8 @@ We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite
 
 - Validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
 
+- Non-blind test set: [https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
+
 - Leaderboard: [https://urgent-challenge.com](https://urgent-challenge.com)
 
 - Baseline script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
