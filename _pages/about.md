@@ -70,7 +70,7 @@ This year's challenge focuses on the following aspects:
 3. To leverage noisy but diverse data
     - How to incorporate noisy speech in training is an important topic to scale up the data amount and diversity. **We intentionally included some noisy dataset (CommonVoice) so that participants can investigate how to leverage such data (e,g, data filtering or semi-supervised learning)**.
 4. To handle inputs with multiple smapling rates
-    - As in the former "NeurIPS 2024 URGENT challenge", **the model has to accept audios with the following sampling rates**: 8k, 16k, 22.05k, 24k, 44.1k, and 48kHz.
+    - As in the former "NeurIPS 2024 URGENT challenge", **the model has to accept audios with the following sampling rates**: 8k, 16k, 22.05k, 24k, 32k, 44.1k, and 48kHz.
 
 <br>
 
@@ -133,17 +133,31 @@ We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite
 
 ## Links
 
+### Data
+
 - Data preparation script: [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge)
 
-- Validation set for leaderboard submission: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
+- Official validation set: 
+    - Noisy: [https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view)
+    - Clean: [https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view](https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view)
+    - Metadata: [https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view](https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view) 
 
-- Non-blind test set: [https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
+- Non-blind test set
+    - Noisy: [https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
+    - Clean: Available after the non-blind test phase ends
+    - Metadata: Available after the non-blind test phase ends
+
+### Baseline
+
+- Training script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
+
+- Pre-trained model: [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
+
+### Leaderboard and registration
 
 - Leaderboard: [https://urgent-challenge.com](https://urgent-challenge.com)
 
-- Baseline script: [https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1](https://github.com/kohei0209/espnet/tree/urgent2025/egs2/urgent25/enh1)
-
-- Baseline pre-trained model: [https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main](https://huggingface.co/kohei0209/tfgridnet_urgent25/tree/main)
+### Contact
 
 - Slack channel: [https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g)
 
