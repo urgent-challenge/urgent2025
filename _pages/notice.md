@@ -8,6 +8,10 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-12-30]** The brief description of the non-blind test set is available in the [`Data`](/urgent2025/data) page.
+
+* **[2024-12-30]** The [clean speech](https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view) and [metadata](https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view) of the official validation set are released.
+
 * **[2024-12-25]** The leaderboard is swithed to the non-blind test phase and the non-blind test set has been released. It can be downloaded [here](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view).
 
 * **[2024-12-23]** We have updated the [`Rules`](/urgent2025/rules) page to clarify the policy regarding the use of pre-trained speech enhancement models. **Using pre-trained speech enhancement models trained on data other than the official Challenge dataset is NOT allowed**. Refer to [`Rules`](/urgent2025/rules) page for more details.

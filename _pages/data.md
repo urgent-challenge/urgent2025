@@ -11,16 +11,29 @@ bibliography: data.bib
 
 <br>
 
-### Data preparation
-Official data preparation code is available at [https://github.com/urgent-challenge/urgent2025_challenge](https://github.com/urgent-challenge/urgent2025_challenge).
+## Brief data description
 
-(2024-11-25) Official validation set for the leaderboard submission is available [here](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view).
+### Training/validation data
+The training and validation data are both simulated by using several public speech/noise/rir corpora (see the table below for more details).
+We provide the [data preparation script](https://github.com/urgent-challenge/urgent2025_challenge) which automatically downloads and pre-processes those data.
 
-(2024-12-25) Non-blind test set is available [here](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
+There are two types of validation data. One is automatically generated during data preparation and the other is provided by the orgnizeres 
+- Unofficial validation set: participants can generate their own validation set using the validation subset of the official challenge datasets to choose the best model.
+- Official validation set: we organizeres provide the validation set for the leaderboard submission. It contains 1000 samples and all of them are synthetic data. The maximum duration per utterance is 15 seconds. Unlike the unofficial one, **we manually picked up clean speeches for the noisy corpora (i.e., CommonVoice)** so it better reflectes the enhancement quality. [Noisy speech](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view), [Clean speech](https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view), and [metadata](https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view) are available.
+
+### Non-blind test set
+The non-blind test set are prepared in a similar way as the official validation set but there are several differences:
+- The test split of the official challenge datasets were used.
+- Several unseen noise and rir were also used when simulating the non-blind test set.
+- Sampling rates are almost equally distributed (there are ~1000/7 data for each of 8k, 16k, 22.05k, 24k, 32k, 44.1k, and 48kHz). We downsampled some data to achieve this.
+
+Currently, only the [noisy data](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view) is available. 
+After the non-blind test phase ends, clean speech and metadata will be available.
+
 
 <br>
 
-### Data description
+## Detailed data description
 The training and validation data are both simulated based on the following source data.
 Note that the validation set made by the [provided script]((https://github.com/urgent-challenge/urgent2025_challenge)) is different from the official validation set used in the leaderboard, although the data source and the type of distortions do not change.
 The official one will be provided on when the leaderboard opens (Nov. 25). Note that we only provide the noisy data but not the ground truth of the official validation set until the leaderboard swithces to test phase (Dec. 23) to avoid cheating in the leaderboard.
@@ -241,7 +254,7 @@ border-bottom: 1px solid #cccccc;
 
 <br>
 
-### Pre-processing
+## Pre-processing
 
 <img alt="pre-processing" src="/urgent2025/assets/img/preprocessing.png" style="max-width: 100%;"/>
 
@@ -261,7 +274,7 @@ Note that the data filtering is inperfect and the dataset still has non-ignorabl
 
 <br>
 
-### Simulation
+## Simulation
 
 With the proviced scripts in the next section, the simulation data can be generated offline in two steps.
 
@@ -273,7 +286,7 @@ For the training set, **we recommend dynamically generating degraded speech samp
 
 
 
-#### Distortions
+### Distortions
 In this challenge, the SE system has to address the following seven distortions.
 In addition to the first four distortions considered in our first challenge, **we added three more distortions (bold ones) often observed in real recordings**.
 Furthermore, in this challenge, **inputs may have multiple distortions**.
@@ -290,7 +303,7 @@ We provide an example simulation script as [`simulation/simulate_data_from_param
 
 
 
-#### Simulation metadata
+### Simulation metadata
 
 The manifest mentioned above is a `tsv` file containing several columns (separated by `\t`). For example:
 

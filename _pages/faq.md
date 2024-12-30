@@ -115,7 +115,7 @@ If you would like to check the consistency of the scores between your local and 
 
 <br>
 
-The maximum duration will be around 15 seconds.
+The maximum duration will be around <strong>15 seconds</strong>.
 Please note that this number may change.
 
 </details>
@@ -129,7 +129,7 @@ Please note that this number may change.
 
 The leaderboard registration is usually approved at least within a day.
 
-If your application is not approved for more than a day, please check if you have submitted the Google Form.
+If your application is not approved for more than a day, <strong>please check if you have submitted the Google Form</strong>.
 We do not approve the registration until we receive it.
 
 If you have done it but have not gotten the approval yet, please reach out to the organizers.
