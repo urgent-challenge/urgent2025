@@ -10,15 +10,14 @@ nav_order: 8
 Below we summarize some frequently asked questions (FAQ) about the URGENT Challenge. If you have any other questions, please feel free to [contact us](/urgent2025/contact).
 
 <details>
+
   <summary><strong> 1. How can I check why my submission failed in the leaderboard?  </strong></summary>
 
   <br>
 
   **Answer:** You could go to `Participate` → `Submit / View Results` and unfold the corresponding failed submission. Then click the text `View scoring error log` to download the error message file. It should display the detailed information about the failure.
 
-  <details><summary>expand to see instructions in a screenshot</summary><div>
-  <img alt="error_message" src="/urgent2025/assets/img/error_log.png" style="max-width: 100%;"/>
-  </div></details>
+  <div><img alt="error_message" src="/urgent2025/assets/img/error_log.png" style="max-width: 100%;"/></div>
 
 </details>
 
