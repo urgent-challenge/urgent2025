@@ -22,7 +22,7 @@ The blind test leaderboard has been closed since the challenge has completed. Th
 
 2. Register the leaderboard from the `Participate` tab at the [competition page](https://urgent-challenge.com/competitions/13).
 
-3. <u>**Submit the Google Form**</u> (in the email you receieve after step 2). 
+3. <u><b>Submit the Google Form</b></u> (in the email you receieve after step 2). 
 
 4. Your application wii be approved AFTER we organizers receive the Google Form.
 
