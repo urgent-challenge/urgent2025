@@ -9,8 +9,7 @@ nav_order: 8
 
 Below we summarize some frequently asked questions (FAQ) about the URGENT Challenge. If you have any other questions, please feel free to [contact us](/urgent2025/contact).
 
-<!--
-#### 1. How can I check why my submission failed in the [leaderboard website](https://urgent-challenge.com/competitions/5)?
+<details><summary> 1. How can I check why my submission failed in the leaderboard?</summary>
 
 **Answer:** You could go to `Participate` → `Submit / View Results` and unfold the corresponding failed submission. Then click the text `View scoring error log` to download the error message file. It should display the detailed information about the failure.
 
@@ -18,7 +17,11 @@ Below we summarize some frequently asked questions (FAQ) about the URGENT Challe
 <img alt="error_message" src="/urgent2025/assets/img/error_log.png" style="max-width: 100%;"/>
 </div></details>
 
-#### 2. What does the following error message mean?
+</details>
+
+<br>
+
+<details><summary>  2. What does the error message from the leaderboard mean? </summary>
 
 Message 1:
 ```
@@ -74,4 +77,49 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
 **Answer:** Evaluation jobs for your submission were terminated likely due to a hardware issue of the specific node assigned to evaluate your submission. Please contact us and we will rerun the evaluation using another node for you.
 
--->
+</details>
+
+<br>
+
+
+<details><summary>  3. I would like to speecd up calculate_wer.py </summary>
+
+<br>
+
+`calculate_wer.py` takes around 30~40 minutes (depending on the environment) to evaluate 1000 samples using a single GPU.
+It takes some time since it does beam search in decoding.
+
+To make it faster, you can skip the beam search by setting `BEAMSIZE` to 1 [here](https://github.com/urgent-challenge/urgent2025_challenge/blob/2de19bab56c7d7fa5f61f5fdda193a7710c62475/evaluation_metrics/calculate_wer.py#L16).
+
+Note that `BEAMSIZE` is set to 5 in the leaderboard evaluation.
+If you would like to check the consistency of the scores between your local and the leaderbord, `BEAMSIZE` should be set to 5.
+
+</details>
+
+<br>
+
+
+<details><summary>  4. How long is the maximum duration of the speech in the test set? </summary>
+
+<br>
+
+The maximum duration will be around **15 seconds**.
+Please note that this number may change.
+
+</details>
+
+<br>
+
+
+<details><summary>  5. Why is not my leaderboard registration approved? </summary>
+
+<br>
+
+The leaderboard registration is usually approved at least within a day.
+
+If your application is not approved for more than a day, **please check if you have submitted the Google Form**.
+We do not approve the registration until we receive it.
+
+If you have done it but have not gotten the approval yet, please reach out to the organizers.
+
+</details>
