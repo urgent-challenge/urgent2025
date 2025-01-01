@@ -13,7 +13,7 @@ bibliography: data.bib
 
 ## Brief data description
 
-### Training/validation data
+#### Training/validation data
 The training and validation data are both simulated by using several public speech/noise/rir corpora (see the table below for more details).
 We provide the [data preparation script](https://github.com/urgent-challenge/urgent2025_challenge) which automatically downloads and pre-processes those data.
 
@@ -21,7 +21,7 @@ There are two types of validation data. One is automatically generated during da
 - Unofficial validation set: participants can generate their own validation set using the validation subset of the official challenge datasets to choose the best model.
 - Official validation set: we organizeres provide the validation set for the leaderboard submission. It contains 1000 samples and all of them are synthetic data. The maximum duration per utterance is 15 seconds. Unlike the unofficial one, **we manually picked up clean speeches for the noisy corpora (i.e., CommonVoice)** so it better reflectes the enhancement quality. [Noisy speech](https://drive.google.com/file/d/1Ip-C5tUNGCssT8KAjHUUoh99jkzRH6nm/view), [Clean speech](https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view), and [metadata](https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view) are available.
 
-### Non-blind test set
+#### Non-blind test set
 The non-blind test set are prepared in a similar way as the official validation set but there are several differences:
 - The test split of the official challenge datasets were used.
 - Several unseen noise and rir were also used when simulating the non-blind test set.
@@ -286,7 +286,7 @@ For the training set, **we recommend dynamically generating degraded speech samp
 
 
 
-### Distortions
+#### Distortions
 In this challenge, the SE system has to address the following seven distortions.
 In addition to the first four distortions considered in our first challenge, **we added three more distortions (bold ones) often observed in real recordings**.
 Furthermore, in this challenge, **inputs may have multiple distortions**.
@@ -303,7 +303,7 @@ We provide an example simulation script as [`simulation/simulate_data_from_param
 
 
 
-### Simulation metadata
+#### Simulation metadata
 
 The manifest mentioned above is a `tsv` file containing several columns (separated by `\t`). For example:
 
