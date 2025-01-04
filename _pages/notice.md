@@ -8,6 +8,8 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-1-4]** The brief description of the blind test set is available in the [`Data`](/urgent2025/data) page.
+
 * **[2024-12-30]** The brief description of the non-blind test set is available in the [`Data`](/urgent2025/data) page.
 
 * **[2024-12-30]** The [clean speech](https://drive.google.com/file/d/11geBBf24WKN1xT_NasnI4JrmKpqNo8h9/view) and [metadata](https://drive.google.com/file/d/1CU5QKYOgG4fUuJ8oAC6BEhI9ZDhQYZpF/view) of the official validation set are released.

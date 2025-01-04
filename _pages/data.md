@@ -30,6 +30,17 @@ The non-blind test set are prepared in a similar way as the official validation 
 Currently, only the [noisy data](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view) is available. 
 After the non-blind test phase ends, clean speech and metadata will be available.
 
+#### Blind test set
+
+The blind test set, which will **be used for the final ranking**, is designed to evaluate the universality, robustness, and generalizability of the submitted systems as outlined in the theme of this challenge.
+
+To this end, the blind test set will primarily be from domains other than the training set and will:
+
+- consist of **50% real-recorded data** (without audio ground truth) and 50% synthetic data,
+- primarily be derived from **from unseen corpora/datasets**,
+- include **one unseen language** in addition to five languages present in the training data,
+- be distorted by **some unseen distortions**  in addition to those used in training, and
+- contain approximately 200 samples for each language, amounting to ~1200 samples in total.
 
 <br>
 
