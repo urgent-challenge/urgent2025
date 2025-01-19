@@ -40,7 +40,7 @@ To this end, the blind test set will primarily be from domains other than the tr
 - primarily be derived from **from unseen corpora/datasets**,
 - include **one unseen language** in addition to five languages present in the training data,
 - be distorted by **some unseen distortions**  in addition to those used in training, and
-- contain approximately 150 samples for each language, amounting to ~900 samples in total.
+- contain 150 samples for each language, amounting to 900 samples in total.
 
 Note that the evaluation procedure during the blind testing phase differs from that in the validation/non-blind test phase in the following ways:
 - Two additional metrics (POLQA and MOS) will be included. (As previously announced, only the English subset will be used for the MOS evaluation due to the short evaluation period.)
