@@ -144,8 +144,11 @@ We have a [Slack channel](https://join.slack.com/t/urgentchallenge/shared_invite
 
 - Non-blind test set
     - Noisy: [https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view)
-    - Clean: Available after the non-blind test phase ends
-    - Metadata: Available after the non-blind test phase ends
+    - Clean: [https://drive.google.com/file/d/1RarjxOgWkaDV8EjH_eLX169y89PVa3sg/view?usp=sharing](https://drive.google.com/file/d/1RarjxOgWkaDV8EjH_eLX169y89PVa3sg/view?usp=sharing)
+    - Metadata: [https://drive.google.com/file/d/1CfhKjfkkUZ60UEOHnlntcQY2m_9pn1uA/view?usp=sharing](https://drive.google.com/file/d/1CfhKjfkkUZ60UEOHnlntcQY2m_9pn1uA/view?usp=sharing)
+
+- Blind test set:
+    - Noisy: [https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing](https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing)
 
 ### Baseline
 

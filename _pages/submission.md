@@ -23,6 +23,7 @@ Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
         * team information (team name, affiliation, team mambers)
         * description of the training & validation data used for the submission
         * description of pre-trained models used for the submission (if applicable)
+
 <!-- * The zip file should be named as `{your_teamname}.zip`. Here, `{your_teamname}` should be replaced with your team name. -->
 * The zip file should only contain a single YAML (README.yaml) file and a folder named `enhanced` that contains all the enhanced audio files. That is, the directory structure after executing `unzip {your_teamname}.zip` should be as follows:
 
@@ -35,6 +36,7 @@ Please refer to [leaderboard](/urgent2025/leaderboard) tab for details.
     ├── ...
     └── fileid_N.flac
 ```
+* **Note that the submission without README.yaml is rejected by the leaderboard system.**
 * Please encode all audio files in the 16-bit [**FLAC**](https://xiph.org/flac/) format to reduce the file size (< 300 MB).
     * The audio files should be encoded in mono-channel with its original sampling frequency.
     * All audio files should have the same **name** and **length** as the original audio files in the provided subset to be tested.

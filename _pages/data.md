@@ -27,15 +27,14 @@ The non-blind test set are prepared in a similar way as the official validation 
 - Several unseen noise and rir were also used when simulating the non-blind test set.
 - Sampling rates are almost equally distributed (there are ~1000/7 data for each of 8k, 16k, 22.05k, 24k, 32k, 44.1k, and 48kHz). We downsampled some data to achieve this.
 
-Currently, only the [noisy data](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view) is available. 
+The [noisy](https://drive.google.com/file/d/1rxV6RgA4LAp2I1EnHsln7wI7-UCP6Qer/view) and [clean](https://drive.google.com/file/d/1RarjxOgWkaDV8EjH_eLX169y89PVa3sg/view?usp=sharing) speeches as well as the [metadata](https://drive.google.com/file/d/1CfhKjfkkUZ60UEOHnlntcQY2m_9pn1uA/view?usp=sharing) are available. 
 After the non-blind test phase ends, clean speech and metadata will be available.
 
 #### Blind test set
 
-The blind test set, which will **be used for the final ranking**, is designed to evaluate the universality, robustness, and generalizability of the submitted systems as outlined in the theme of this challenge.
+The blind test set, which will **be used for the final ranking**, is available [here](https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing).
 
-To this end, the blind test set will primarily be from domains other than the training set and will:
-
+To evaluate the universality, robustness, and generalizability of the submitted systems as outlined in the theme of this challenge, the blind test set is primarily from domains other than the training set:
 - consist of **50% real-recorded data** (without audio ground truth) and 50% synthetic data,
 - primarily be derived from **from unseen corpora/datasets**,
 - include **one unseen language** in addition to five languages present in the training data,
@@ -51,7 +50,6 @@ Note that the evaluation procedure during the blind testing phase differs from t
 ## Detailed data description
 The training and validation data are both simulated based on the following source data.
 Note that the validation set made by the [provided script]((https://github.com/urgent-challenge/urgent2025_challenge)) is different from the official validation set used in the leaderboard, although the data source and the type of distortions do not change.
-The official one will be provided on when the leaderboard opens (Nov. 25). Note that we only provide the noisy data but not the ground truth of the official validation set until the leaderboard swithces to test phase (Dec. 23) to avoid cheating in the leaderboard.
 
 The challenge has two tracks: 
  - **First track**: We limit the duration of MLS and CommonVoice, resulting in ~2.5k hours of speech.

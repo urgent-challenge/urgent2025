@@ -8,6 +8,10 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-1-20]** The blind test set was released [here](https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing).
+
+* **[2024-1-20]** The [clean speech](https://drive.google.com/file/d/1RarjxOgWkaDV8EjH_eLX169y89PVa3sg/view?usp=sharing) and [metadata](https://drive.google.com/file/d/1CfhKjfkkUZ60UEOHnlntcQY2m_9pn1uA/view?usp=sharing) of the non-blind test set were released.
+
 * **[2024-1-4]** The brief description of the blind test set is available in the [`Data`](/urgent2025/data) page.
 
 * **[2024-12-30]** The brief description of the non-blind test set is available in the [`Data`](/urgent2025/data) page.
