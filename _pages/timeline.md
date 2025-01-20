@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 
-|   **Date ( Anywhere on Earth )**  |         **Event**          |
+|   **Date ( Anywhere on Earth, 00：00：00 )**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
 |     November 15, 2024             | **Start of the challenge** |
 |  November15-December15 2024       | Grace Period for new dataset proposal from participants |
