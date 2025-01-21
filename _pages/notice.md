@@ -7,6 +7,7 @@ notification: true
 nav: true
 nav_order: 9
 ---
+* **[2024-1-21]** The blind testing phase is extended by one day, ending on Jan. 22 23:59:59 (AoE). 
 
 * **[2024-1-20]** The blind test set was released [here](https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing).
 

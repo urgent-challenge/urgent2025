@@ -11,6 +11,8 @@ bibliography: data.bib
 
 <br>
 
+> The blind test set is available [here](https://drive.google.com/file/d/1dHvYEGHCf9rsB1q-Cd9rXOeQaa_vjG2u/view?usp=sharing)
+
 ## Brief data description
 
 #### Training/validation data
