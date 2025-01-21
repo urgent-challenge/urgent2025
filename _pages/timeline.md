@@ -8,14 +8,14 @@ nav_order: 2
 ---
 
 
-|   **Date ( Anywhere on Earth, 00：00：00 )**  |         **Event**          |
+|   **Date ( Anywhere on Earth )**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
 |     November 15, 2024             | **Start of the challenge** |
 |  November15-December15 2024       | Grace Period for new dataset proposal from participants |
 |     November 25, 2024             | Release of official validation data. Leaderboard opens. |
 |     December 23, 2024             | Release of non-blind test data. Leaderboard is switched to test data. |
-|<del>January 13, 2025</del><br>January 20, 2025 | Release of blind test data. Leaderboard is swithed to blind-test data for final ranking. |
-|<del>January 15, 2025</del><br>January 22, 2025 | **End of the challenge**   |
+|<del>January 13, 2025</del><br>January 20, 2025<br>(00:00:00) | Release of blind test data. Leaderboard is swithed to blind-test data for final ranking. |
+|<del>January 15, 2025</del><br>January 22, 2025<br>(23:59:59) | **End of the challenge**   |
 |     February 5, 2025              | Notification of final results |
 |     February 12, 2025             | Paper submission deadline |
 |     February 19, 2025             | Paper update deadline |
